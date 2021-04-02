@@ -24,6 +24,7 @@
 		E7D0163126176ED000A18CD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0163026176ED000A18CD5 /* MapView.swift */; };
 		E7D0164226176FE900A18CD5 /* ExperienceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0164126176FE900A18CD5 /* ExperienceDetail.swift */; };
 		E7D016472617718600A18CD5 /* ExperienceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D016462617718600A18CD5 /* ExperienceRow.swift */; };
+		E7D0164C2617724B00A18CD5 /* ExperienceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0164B2617724B00A18CD5 /* ExperienceHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E7D0163026176ED000A18CD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E7D0164126176FE900A18CD5 /* ExperienceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetail.swift; sourceTree = "<group>"; };
 		E7D016462617718600A18CD5 /* ExperienceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRow.swift; sourceTree = "<group>"; };
+		E7D0164B2617724B00A18CD5 /* ExperienceHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				E7D0161626176A9100A18CD5 /* ExperienceItem.swift */,
 				E7D0164126176FE900A18CD5 /* ExperienceDetail.swift */,
 				E7D016462617718600A18CD5 /* ExperienceRow.swift */,
+				E7D0164B2617724B00A18CD5 /* ExperienceHome.swift */,
 			);
 			path = Experiences;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				E7D0162326176DBA00A18CD5 /* CircleImage.swift in Sources */,
 				E7090B622617345B0031099F /* Profile.swift in Sources */,
 				E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */,
+				E7D0164C2617724B00A18CD5 /* ExperienceHome.swift in Sources */,
 				E7D016472617718600A18CD5 /* ExperienceRow.swift in Sources */,
 				E7D0164226176FE900A18CD5 /* ExperienceDetail.swift in Sources */,
 				E7D0161726176A9100A18CD5 /* ExperienceItem.swift in Sources */,
