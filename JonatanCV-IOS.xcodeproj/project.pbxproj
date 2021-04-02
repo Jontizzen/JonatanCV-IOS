@@ -111,6 +111,14 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		E7090B92261766A80031099F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70C13902614EFFC00AE82BD /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E70C13822614EFFC00AE82BD = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +145,8 @@
 				E7090B7A261736B40031099F /* User */,
 				E7090B5B2617343D0031099F /* Models */,
 				E7090B50261734130031099F /* Resources */,
+				E7090B92261766A80031099F /* Views */,
 				E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */,
-				E70C13902614EFFC00AE82BD /* ContentView.swift */,
 				E70C13922614F00000AE82BD /* Assets.xcassets */,
 				E70C13972614F00000AE82BD /* Info.plist */,
 				E70C13942614F00000AE82BD /* Preview Content */,
