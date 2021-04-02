@@ -83,6 +83,14 @@ struct UserDeatil: View {
                        .background(Color.newPrimaryColor)
                 
             }
+            
+            VStack(alignment: .center) {
+                
+                Text(Profile.default.letter)
+                    .font(.subheadline)
+                    .frame(width: 350, height: 1390)
+                
+            }
         }
     }
 }
