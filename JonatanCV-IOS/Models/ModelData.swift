@@ -10,7 +10,7 @@ import Foundation
 //MARK:- SwiftUI subscribes to your observable object, and updates any views that need refreshing when the data changes.
 final class ModelData: ObservableObject {
     
-    @Published var Experiences : [Experience] = load("workExperienceData.json")
+    @Published var Experiences : [Experience] = load("experienceData.json")
 
     // Instance of the user profile that persists even after the user dismisses the profile view
     //@Published var profile = Profile.default
