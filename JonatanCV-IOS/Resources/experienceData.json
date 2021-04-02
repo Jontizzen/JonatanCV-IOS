@@ -1,0 +1,107 @@
+[
+    {
+        "name": "En appstudio",
+        "category": "Work",
+        "city": "Jönköping",
+        "id": 1001,
+        "date": "2020",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Jobbade med att utveckla en applikation i Android studio mot en hårdvara via Bluetooth\n\n- Fick arbeta med webbutveckling genom att implementera en landing page\n\n- Fick även lära mig att fixa buggar på en IOS applikation",
+        "coordinates": {
+            "longitude": 14.166548,
+            "latitude": 57.784148
+        },
+        "imageName": "enappstudioImage"
+    },
+    {
+        "name": "Swedecote",
+        "category": "Work",
+        "city": "Mullsjö",
+        "id": 1002,
+        "date": "2015 - 2016",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Jobbade natt med arbetsuppgifter att doppa olika bildelar i zink och andra beskyddande medel för att sedan packa ner dem\n\n- Körde stående truck",
+        "coordinates": {
+            "longitude": 13.86808,
+            "latitude": 57.90884
+        },
+        "imageName": "swedecoteImage"
+    },
+    {
+        "name": "Sanda",
+        "category": "Education",
+        "city": "Huskvarna",
+        "id": 1003,
+        "date": "2012 - 2015",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Gick sanda elit fotboll\n\n- Gick ekonomiprogrammet",
+        "coordinates": {
+            "longitude": 14.26061,
+            "latitude": 57.78503
+        },
+        "imageName": "sandaLogo"
+    },
+    {
+        "name": "Jönköping University",
+        "category": "Education",
+        "city": "Jönköping",
+        "id": 1004,
+        "date": "2018-2021",
+        "isFeatured": true,
+        "isFavorite": false,
+        "description": "- Inne på sista terminen på programmet Mjukvaruutveckling och mobila plattformar",
+        "coordinates": {
+            "longitude": 14.16180,
+            "latitude": 57.77893
+        },
+        "imageName": "JUImage"
+    },
+    {
+        "name": "Aditro",
+        "category": "Work",
+        "city": "Jönköping",
+        "id": 1005,
+        "date": "2016 - 2018",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Lagerjobb där arbetsuppgifterna var att packa produkter som skulle skickas iväg\n\n- Fick möjligheten att köra många olika typer av truckfordon\n\n- Jobbade både med inleverans och utleverans\n\n- Efter att jobbat där ca 1 år fick jag möjligheten att vara ansvarig över en avdelning",
+        "coordinates": {
+            "longitude": 14.15827,
+            "latitude": 57.68278
+        },
+        "imageName": "aditroImage"
+    },
+    {
+        "name": "Gnotec",
+        "category": "Work",
+        "city": "Habo",
+        "id": 1006,
+        "date": "2014 - 2015",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Hade diverse uppgifter, såsom tillverkning av bildelar men även olika arbetsuppgifter som vaktmästare",
+        "coordinates": {
+            "longitude": 14.07686,
+            "latitude": 57.91413
+        },
+        "imageName": "gnotecImage"
+    },
+    {
+        "name": "HTS Safety",
+        "category": "Work",
+        "city": "Jönköping",
+        "id": 1007,
+        "date": "2019-2020",
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "- Lagerjobb där arbetsuppgifter inkluderade att packa produkter och köra truck\n\n- Jobbade både med inleverans och utleverans",
+        "coordinates": {
+            "longitude": 14.08244,
+            "latitude": 57.76889
+        },
+        "imageName": "beSafeImage"
+    }
+]

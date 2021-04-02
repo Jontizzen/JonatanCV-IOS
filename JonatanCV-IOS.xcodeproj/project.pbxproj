@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7090B53261734250031099F /* profileData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7090B51261734250031099F /* profileData.json */; };
+		E7090B54261734250031099F /* experienceData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7090B52261734250031099F /* experienceData.json */; };
+		E7090B5D261734510031099F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B5C261734510031099F /* ModelData.swift */; };
+		E7090B622617345B0031099F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B612617345B0031099F /* Profile.swift */; };
+		E7090B67261734650031099F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B66261734650031099F /* Experience.swift */; };
 		E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */; };
 		E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13902614EFFC00AE82BD /* ContentView.swift */; };
 		E70C13932614F00000AE82BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C13922614F00000AE82BD /* Assets.xcassets */; };
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7090B51261734250031099F /* profileData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profileData.json; sourceTree = "<group>"; };
+		E7090B52261734250031099F /* experienceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = experienceData.json; sourceTree = "<group>"; };
+		E7090B5C261734510031099F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E7090B612617345B0031099F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E7090B66261734650031099F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		E70C138B2614EFFC00AE82BD /* JonatanCV-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JonatanCV-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonatanCV_IOSApp.swift; sourceTree = "<group>"; };
 		E70C13902614EFFC00AE82BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +82,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7090B50261734130031099F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7090B51261734250031099F /* profileData.json */,
+				E7090B52261734250031099F /* experienceData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7090B5B2617343D0031099F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7090B5C261734510031099F /* ModelData.swift */,
+				E7090B612617345B0031099F /* Profile.swift */,
+				E7090B66261734650031099F /* Experience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E70C13822614EFFC00AE82BD = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +124,8 @@
 		E70C138D2614EFFC00AE82BD /* JonatanCV-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E7090B5B2617343D0031099F /* Models */,
+				E7090B50261734130031099F /* Resources */,
 				E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */,
 				E70C13902614EFFC00AE82BD /* ContentView.swift */,
 				E70C13922614F00000AE82BD /* Assets.xcassets */,
@@ -233,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7090B54261734250031099F /* experienceData.json in Resources */,
+				E7090B53261734250031099F /* profileData.json in Resources */,
 				E70C13962614F00000AE82BD /* Preview Assets.xcassets in Resources */,
 				E70C13932614F00000AE82BD /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */,
+				E7090B622617345B0031099F /* Profile.swift in Sources */,
 				E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */,
+				E7090B67261734650031099F /* Experience.swift in Sources */,
+				E7090B5D261734510031099F /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
