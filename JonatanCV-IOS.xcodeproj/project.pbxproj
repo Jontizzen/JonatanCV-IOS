@@ -19,6 +19,7 @@
 		E70C13962614F00000AE82BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C13952614F00000AE82BD /* Preview Assets.xcassets */; };
 		E70C13A12614F00000AE82BD /* JonatanCV_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13A02614F00000AE82BD /* JonatanCV_IOSTests.swift */; };
 		E70C13AC2614F00000AE82BD /* JonatanCV_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13AB2614F00000AE82BD /* JonatanCV_IOSUITests.swift */; };
+		E7D0161726176A9100A18CD5 /* ExperienceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0161626176A9100A18CD5 /* ExperienceItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E70C13A72614F00000AE82BD /* JonatanCV-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JonatanCV-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70C13AB2614F00000AE82BD /* JonatanCV_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonatanCV_IOSUITests.swift; sourceTree = "<group>"; };
 		E70C13AD2614F00000AE82BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D0161626176A9100A18CD5 /* ExperienceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		E70C138D2614EFFC00AE82BD /* JonatanCV-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E7D0161526176A7A00A18CD5 /* Experiences */,
 				E7090B7A261736B40031099F /* User */,
 				E7090B5B2617343D0031099F /* Models */,
 				E7090B50261734130031099F /* Resources */,
@@ -178,6 +181,14 @@
 				E70C13AD2614F00000AE82BD /* Info.plist */,
 			);
 			path = "JonatanCV-IOSUITests";
+			sourceTree = "<group>";
+		};
+		E7D0161526176A7A00A18CD5 /* Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				E7D0161626176A9100A18CD5 /* ExperienceItem.swift */,
+			);
+			path = Experiences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 				E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */,
 				E7090B622617345B0031099F /* Profile.swift in Sources */,
 				E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */,
+				E7D0161726176A9100A18CD5 /* ExperienceItem.swift in Sources */,
 				E7090B7C261736C00031099F /* UserDetail.swift in Sources */,
 				E7090B67261734650031099F /* Experience.swift in Sources */,
 				E7090B5D261734510031099F /* ModelData.swift in Sources */,
