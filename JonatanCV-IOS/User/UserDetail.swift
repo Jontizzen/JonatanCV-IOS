@@ -38,7 +38,25 @@ struct UserDeatil: View {
                     .offset(y: 50)
             }
             
-            
+            VStack(alignment: .center) {
+                
+                HStack(alignment: .center) {
+                    
+                    Image(systemName: "person.icloud.fill")
+                        .resizable()
+                        .foregroundColor(Color.newPrimaryColor)
+                        .frame(width: 25, height: 20, alignment: .center)
+                        .offset(x: 15, y: 1)
+                    
+                    Text(Profile.default.name)
+                        .font(.title)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .frame(width: 250, height: 20, alignment: .bottom)
+                        .padding(.top)
+                        .foregroundColor(.black)
+                }
+                
+            }
         }
     }
 }
