@@ -12,6 +12,7 @@
 		E7090B5D261734510031099F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B5C261734510031099F /* ModelData.swift */; };
 		E7090B622617345B0031099F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B612617345B0031099F /* Profile.swift */; };
 		E7090B67261734650031099F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B66261734650031099F /* Experience.swift */; };
+		E7090B7C261736C00031099F /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7090B7B261736C00031099F /* UserDetail.swift */; };
 		E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */; };
 		E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13902614EFFC00AE82BD /* ContentView.swift */; };
 		E70C13932614F00000AE82BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C13922614F00000AE82BD /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		E7090B5C261734510031099F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E7090B612617345B0031099F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E7090B66261734650031099F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		E7090B7B261736C00031099F /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		E70C138B2614EFFC00AE82BD /* JonatanCV-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JonatanCV-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonatanCV_IOSApp.swift; sourceTree = "<group>"; };
 		E70C13902614EFFC00AE82BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		E7090B7A261736B40031099F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E7090B7B261736C00031099F /* UserDetail.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		E70C13822614EFFC00AE82BD = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		E70C138D2614EFFC00AE82BD /* JonatanCV-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E7090B7A261736B40031099F /* User */,
 				E7090B5B2617343D0031099F /* Models */,
 				E7090B50261734130031099F /* Resources */,
 				E70C138E2614EFFC00AE82BD /* JonatanCV_IOSApp.swift */,
@@ -295,6 +306,7 @@
 				E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */,
 				E7090B622617345B0031099F /* Profile.swift in Sources */,
 				E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */,
+				E7090B7C261736C00031099F /* UserDetail.swift in Sources */,
 				E7090B67261734650031099F /* Experience.swift in Sources */,
 				E7090B5D261734510031099F /* ModelData.swift in Sources */,
 			);
