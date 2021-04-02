@@ -37,8 +37,8 @@ struct ExperienceItem_Previews: PreviewProvider {
         
         Group {
             
-            ExperienceItem(experience: ModelData().Experiences[4])
-            ExperienceItem(experience: ModelData().Experiences[6])
+            ExperienceItem(experience: ModelData().experiences[4])
+            ExperienceItem(experience: ModelData().experiences[6])
 
         }
     }
