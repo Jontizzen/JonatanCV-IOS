@@ -56,6 +56,32 @@ struct UserDeatil: View {
                         .foregroundColor(.black)
                 }
                 
+                   Text(Profile.default.title)
+                       .font(.subheadline)
+                       .fontWeight(.bold)
+                       .foregroundColor(.newPrimaryColor)
+                       .frame(width: 350, height: 80, alignment: .trailing)
+                   
+                   HStack {
+                       
+                       Image(systemName: "iphone.homebutton").foregroundColor(.newPrimaryColor)
+                       
+                       Text(Profile.default.mobile)
+                           .font(.footnote)
+                           .padding(.trailing)
+                       
+                       Image(systemName: "mail").foregroundColor(.newPrimaryColor)
+                       
+                       Text(Profile.default.email)
+                           .font(.footnote)
+                           .padding(.trailing)
+
+                   }
+                   
+                   Divider()
+                       .frame(width: 500, height: 2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                       .background(Color.newPrimaryColor)
+                
             }
         }
     }
