@@ -12,7 +12,7 @@ extension Color {
     static let newPrimaryColor = Color("TitleColor")
 }
 
-struct UserDeatil: View {
+struct UserDetail: View {
     
     var body: some View {
         
@@ -99,6 +99,6 @@ struct UserDeatil_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        UserDeatil()
+        UserDetail()
     }
 }
