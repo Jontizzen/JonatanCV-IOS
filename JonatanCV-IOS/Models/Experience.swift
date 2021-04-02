@@ -17,7 +17,6 @@ struct Experience: Hashable, Codable, Identifiable {
     var city: String
     var date: String
     var isFeatured: Bool
-    var isFavorite: Bool
     var description: String
     
     var category: Category
