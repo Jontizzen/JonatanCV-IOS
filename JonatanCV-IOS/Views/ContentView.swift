@@ -9,10 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var selection: Tab = .about
+
+    enum Tab {
+        
+        case about
+        case work
+    }
+    
     var body: some View {
         
-        UserDetail()
-
+        TabView(selection: $selection) {
+            
+            UserDetail()
+                .tabItem {
+                    Label("Personal letter", systemImage: "star")
+                }
+                .tag(Tab.about)
+            
+            ExperienceHome()
+                .tabItem {
+                    Label("Experience", systemImage: "list.bullet")
+                }
+                .tag(Tab.work)
+        }
     }
 }
 
