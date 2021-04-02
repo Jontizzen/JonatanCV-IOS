@@ -23,7 +23,7 @@ struct ContentView: View {
             
             UserDetail()
                 .tabItem {
-                    Label("Personal letter", systemImage: "star")
+                    Label("Personal letter", systemImage: "star.fill")
                 }
                 .tag(Tab.about)
             
