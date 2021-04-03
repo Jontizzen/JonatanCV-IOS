@@ -1,7 +1,7 @@
 [
     {
         "name": "En appstudio",
-        "category": "Arbete",
+        "category": "Arbetslivserfarenhet",
         "city": "Jönköping",
         "id": 1001,
         "date": "2020",
@@ -15,7 +15,7 @@
     },
     {
         "name": "Swedecote",
-        "category": "Arbete",
+        "category": "Arbetslivserfarenhet",
         "city": "Mullsjö",
         "id": 1002,
         "date": "2015 - 2016",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Aditro",
-        "category": "Arbete",
+        "category": "Arbetslivserfarenhet",
         "city": "Jönköping",
         "id": 1005,
         "date": "2016 - 2018",
@@ -71,7 +71,7 @@
     },
     {
         "name": "Gnotec",
-        "category": "Arbete",
+        "category": "Arbetslivserfarenhet",
         "city": "Habo",
         "id": 1006,
         "date": "2014 - 2015",
@@ -85,7 +85,7 @@
     },
     {
         "name": "HTS Safety",
-        "category": "Arbete",
+        "category": "Arbetslivserfarenhet",
         "city": "Jönköping",
         "id": 1007,
         "date": "2019-2020",

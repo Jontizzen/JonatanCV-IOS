@@ -25,7 +25,7 @@ struct Experience: Hashable, Codable, Identifiable {
     
     enum Category: String, CaseIterable, Codable {
         
-        case work = "Arbete"
+        case work = "Arbetslivserfarenhet"
         case education = "Utbildning"
     }
 
