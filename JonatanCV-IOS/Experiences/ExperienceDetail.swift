@@ -56,8 +56,11 @@ struct ExperienceDetail: View {
                 }
                 
                 Divider()
+                    .frame(width: 420, height: 2, alignment: .center)
+                    .background(Color.newPrimaryColor)
                 
                 Text(experience.description)
+                    .font(.subheadline)
                     .padding(.leading)
                     .padding(.top)
             }
@@ -70,7 +73,7 @@ struct ExperienceDetail_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        ExperienceDetail(experience: ModelData().experiences[6])
+        ExperienceDetail(experience: ModelData().experiences[4])
             .environmentObject(modelData)
     }
 }
