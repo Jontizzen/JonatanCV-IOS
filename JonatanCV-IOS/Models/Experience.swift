@@ -25,8 +25,8 @@ struct Experience: Hashable, Codable, Identifiable {
     
     enum Category: String, CaseIterable, Codable {
         
-        case work = "Work"
-        case education = "Education"
+        case work = "Arbete"
+        case education = "Utbildning"
     }
 
     private var imageName: String

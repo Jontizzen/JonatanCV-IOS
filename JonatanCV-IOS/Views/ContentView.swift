@@ -23,13 +23,13 @@ struct ContentView: View {
             
             UserDetail()
                 .tabItem {
-                    Label("Personal letter", systemImage: "star.fill")
+                    Label("Personligt brev", systemImage: "star.fill")
                 }
                 .tag(Tab.about)
             
             ExperienceHome()
                 .tabItem {
-                    Label("Experience", systemImage: "list.bullet")
+                    Label("Erfarenheter", systemImage: "list.bullet")
                 }
                 .tag(Tab.work)
         }

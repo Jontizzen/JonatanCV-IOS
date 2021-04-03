@@ -33,7 +33,7 @@ struct ExperienceHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(InsetListStyle())
-            .navigationTitle("Current")
+            .navigationTitle("Nuvarande")
         }
     }
 }
