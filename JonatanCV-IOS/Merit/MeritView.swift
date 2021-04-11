@@ -82,7 +82,7 @@ struct MeritView: View {
             VStack(alignment: .center) {
                 
                 Text("Meriter:")
-                    .font(.title3)
+                    .font(.title2)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .frame(width: 400, height: 50, alignment: .leading)
                 
@@ -93,7 +93,7 @@ struct MeritView: View {
                 Text("Dessa programmeringsspråk har jag arbetat med:")
                     .font(.title3)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                    .frame(width: 400, height: 50, alignment: .leading)
+                    .frame(width: 400, height: 60, alignment: .leading)
                 
                 Text("- C\n- C++\n- Java\n- Kotlin\n- Swift/Swift UI\n- Python\n- JavaScript\n- Flutter\n- Dart")
                     .font(.subheadline)
