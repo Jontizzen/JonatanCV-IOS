@@ -15,6 +15,7 @@ struct ContentView: View {
         
         case about
         case work
+        case merits
     }
     
     var body: some View {
@@ -23,7 +24,7 @@ struct ContentView: View {
             
             UserDetail()
                 .tabItem {
-                    Label("Personligt brev", systemImage: "star.fill")
+                    Label("Personligt brev", systemImage: "person.fill")
                 }
                 .tag(Tab.about)
             
@@ -32,6 +33,13 @@ struct ContentView: View {
                     Label("Erfarenheter", systemImage: "list.bullet")
                 }
                 .tag(Tab.work)
+            
+            MeritView()
+                .tabItem {
+                    Label("Meriter",
+                          systemImage: "star.fill")
+                }
+                .tag(Tab.merits)
         }
     }
 }

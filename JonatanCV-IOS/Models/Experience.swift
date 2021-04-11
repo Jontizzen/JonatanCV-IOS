@@ -27,6 +27,7 @@ struct Experience: Hashable, Codable, Identifiable {
         
         case work = "Arbetslivserfarenhet"
         case education = "Utbildning"
+        case merits = "Meriter"
     }
 
     private var imageName: String

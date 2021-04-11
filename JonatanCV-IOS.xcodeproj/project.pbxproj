@@ -19,6 +19,7 @@
 		E70C13962614F00000AE82BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C13952614F00000AE82BD /* Preview Assets.xcassets */; };
 		E70C13A12614F00000AE82BD /* JonatanCV_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13A02614F00000AE82BD /* JonatanCV_IOSTests.swift */; };
 		E70C13AC2614F00000AE82BD /* JonatanCV_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C13AB2614F00000AE82BD /* JonatanCV_IOSUITests.swift */; };
+		E7A878EA2623247500C59BEE /* MeritView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A878E92623247500C59BEE /* MeritView.swift */; };
 		E7D0161726176A9100A18CD5 /* ExperienceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0161626176A9100A18CD5 /* ExperienceItem.swift */; };
 		E7D0162326176DBA00A18CD5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0162226176DBA00A18CD5 /* CircleImage.swift */; };
 		E7D0163126176ED000A18CD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0163026176ED000A18CD5 /* MapView.swift */; };
@@ -63,6 +64,7 @@
 		E70C13A72614F00000AE82BD /* JonatanCV-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JonatanCV-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70C13AB2614F00000AE82BD /* JonatanCV_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonatanCV_IOSUITests.swift; sourceTree = "<group>"; };
 		E70C13AD2614F00000AE82BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A878E92623247500C59BEE /* MeritView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritView.swift; sourceTree = "<group>"; };
 		E7D0161626176A9100A18CD5 /* ExperienceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceItem.swift; sourceTree = "<group>"; };
 		E7D0162226176DBA00A18CD5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E7D0163026176ED000A18CD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		E70C138D2614EFFC00AE82BD /* JonatanCV-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E7A878E82623245E00C59BEE /* Merit */,
 				E7D0162126176DA700A18CD5 /* Helpers */,
 				E7D0161526176A7A00A18CD5 /* Experiences */,
 				E7090B7A261736B40031099F /* User */,
@@ -192,6 +195,14 @@
 				E70C13AD2614F00000AE82BD /* Info.plist */,
 			);
 			path = "JonatanCV-IOSUITests";
+			sourceTree = "<group>";
+		};
+		E7A878E82623245E00C59BEE /* Merit */ = {
+			isa = PBXGroup;
+			children = (
+				E7A878E92623247500C59BEE /* MeritView.swift */,
+			);
+			path = Merit;
 			sourceTree = "<group>";
 		};
 		E7D0161526176A7A00A18CD5 /* Experiences */ = {
@@ -348,6 +359,7 @@
 				E70C13912614EFFC00AE82BD /* ContentView.swift in Sources */,
 				E7D0162326176DBA00A18CD5 /* CircleImage.swift in Sources */,
 				E7090B622617345B0031099F /* Profile.swift in Sources */,
+				E7A878EA2623247500C59BEE /* MeritView.swift in Sources */,
 				E70C138F2614EFFC00AE82BD /* JonatanCV_IOSApp.swift in Sources */,
 				E7D0164C2617724B00A18CD5 /* ExperienceHome.swift in Sources */,
 				E7D016472617718600A18CD5 /* ExperienceRow.swift in Sources */,
