@@ -3,6 +3,15 @@ Detta är  mitt CV med personligt brev samt jobb/skol erfarenheter i IOS.
 
 
 
-Start screen:
+Personligt brev:
 
-![image](https://user-images.githubusercontent.com/81707573/113431987-e2144700-93dc-11eb-836c-4e7c2a372407.png)
+letterImage![image](https://user-images.githubusercontent.com/81707573/114307575-98181900-9ae0-11eb-8c91-18d6e1719c32.png)
+
+Meriter:
+
+meritsImage![image](https://user-images.githubusercontent.com/81707573/114307589-ab2ae900-9ae0-11eb-9c4f-2ba41bec42f9.png)
+
+Erfarenheter:
+
+experienceImage![Uploading image.png…]()
+
