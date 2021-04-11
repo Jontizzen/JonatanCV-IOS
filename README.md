@@ -13,5 +13,5 @@ meritsImage![image](https://user-images.githubusercontent.com/81707573/114307589
 
 Erfarenheter:
 
-experienceImage![Uploading image.png…]()
+experienceImage![image](https://user-images.githubusercontent.com/81707573/114307641-d9102d80-9ae0-11eb-9672-2ae0bf54532b.png)
 
