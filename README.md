@@ -15,3 +15,8 @@ Erfarenheter:
 
 [image](https://user-images.githubusercontent.com/81707573/114307641-d9102d80-9ae0-11eb-9672-2ae0bf54532b.png)
 
+Erfarenhet detalj:
+
+[image](https://user-images.githubusercontent.com/81707573/114440912-076a3780-9bcb-11eb-8b6b-5bc5768cfb79.png)
+
+
