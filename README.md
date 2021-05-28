@@ -5,7 +5,7 @@ Detta är  mitt CV med personligt brev samt jobb/skol erfarenheter i IOS.
 
 Personligt brev:
 
-![Personal letter](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/letterImage.png)
+![Personal letter](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/perosnal_letter.png)
 
 Meriter:
 
