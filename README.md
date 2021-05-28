@@ -3,20 +3,20 @@ Detta är  mitt CV med personligt brev samt jobb/skol erfarenheter i IOS.
 
 
 
-Personligt brev:
+Personligt brev:  
 
-![Personal letter](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/perosnal_letter.png)
+![Personal letter](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/personal_letter.png)
 
-Meriter:
+Meriter:  
 
-![Merits](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/meritsImage.png)
+![Merits](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/merits.png)
 
-Erfarenheter:
+Erfarenheter:  
 
-![Experiences](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/experienceImage.png)
+![Experiences](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/experiences.png)
 
-Erfarenhet detalj:
+Erfarenhet detalj:  
 
-![Experience detail](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/experienceDetailImage.png)
+![Experience detail](https://github.com/Jontizzen/JonatanCV-IOS/blob/main/experience_detail.png)
 
 
